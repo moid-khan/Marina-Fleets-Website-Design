@@ -24,8 +24,7 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./css/aos.css">
     <style>
       html,
       body,
@@ -33,8 +32,9 @@
       .view {
         height: 100%;
       }
-
+    
       @media (max-width: 740px) {
+    
         html,
         body,
         header,
@@ -42,38 +42,52 @@
           height: 100vh;
         }
       }
-
+    
       .top-nav-collapse {
         background-color: #3f51b5 !important;
       }
-
+    
       .navbar:not(.top-nav-collapse) {
         background: #3f51b5 !important;
       }
-
+    
       @media (max-width: 991px) {
         .navbar:not(.top-nav-collapse) {
           background: #3f51b5 !important;
         }
       }
-
+    
       h5 {
         letter-spacing: 3px;
       }
+    
       .rating {
         list-style-type: none;
       }
+    
       .rating li {
         float: left;
       }
+    
       .rating li i {
         display: block;
         color: #ffa000;
       }
-      .testimonials{
+    
+      .testimonials {
         background: #3f51b5;
       }
+    
+      .wow {
+        text-shadow: 2px 2px 5px rgba(71, 67, 67, 0.2);
+      }
+      .sh{
+        text-shadow: 2px 2px 6px #696868;
+      }
     </style>
+  </head>
+  <body>
+   
 
     <!-- Main navigation -->
     <header>
@@ -99,13 +113,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="index.html"
                   >Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
               <!-- Dropdown -->
               <li class="nav-item dropdown">
@@ -121,22 +135,22 @@
                   class="dropdown-menu dropdown-primary"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="#">Luxury</a>
-                  <a class="dropdown-item" href="#">Sailing</a>
-                  <a class="dropdown-item" href="#">Fishing</a>
+                  <a class="dropdown-item" href="luxury.html">Luxury</a>
+                  <a class="dropdown-item" href="sailing.html">Sailing</a>
+                  <a class="dropdown-item" href="fishing.html">Fishing</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Queries Link</a>
+                <a class="nav-link" href="queries.html">Queries Link</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Site Map</a>
+                <a class="nav-link" href="sitemap.html">Site Map</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -156,26 +170,27 @@
             <!--Grid row-->
             <div class="row">
               <!--Grid column-->
-              <div class="col-md-12 white-text text-center">
+              <div class="col-md-12 white-text text-center"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                 <h1
-                  class="display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold wow fadeInDown "
+                  class="display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold wow fadeInDown sh "
                   data-wow-delay="0.3s"
                 >
                   MARINA
                   <a
-                    class="indigo-text font-weight-bold"
+                    class="indigo-text font-weight-bold sh"
                     style="color: #3F51B5;"
-                    >FLEET</a
+                    >FLEETS</a
                   >
                 </h1>
                 <h5
-                  class="text-uppercase pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold wow fadeInDown"
+                  class="text-uppercase pt-md-5 sh pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold wow fadeInDown"
                   data-wow-delay="0.3s"
                 >
                   The trusted name in yachting and boating
                 </h5>
                 <div class="wow fadeInDown" data-wow-delay="0.3s">
-                  <a
+                  <a href="./about.html"
                     class="btn btn-indigo btn-lg 3F51B5-rounded"
                     style="background-color: #1A78C3;"
                     >About Us</a
@@ -195,7 +210,7 @@
     <!-- Main navigation -->
 
     <!-- About Starts -->
-    <div class="container my-5 py-5 z-depth-1">
+    <div class="container my-5 py-5 shadow-lg" data-aos="fade-up">
       <!--Section: Content-->
       <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
         <!--Grid row-->
@@ -236,7 +251,7 @@
       <!--Section: Content-->
     </div>
 
-    <div class="container my-5 py-5 z-depth-1">
+    <div class="container my-5 py-5 shadow-lg" data-aos="fade-left">
       <!--Section: Content-->
       <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
         <!--Grid row-->
@@ -276,7 +291,7 @@
       <!--Section: Content-->
     </div>
 
-    <div class="container my-5 py-5 z-depth-1">
+    <div class="container my-5 py-5 shadow-lg" data-aos="fade-right">
       <!--Section: Content-->
       <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
         <!--Grid row-->
@@ -323,13 +338,13 @@
     <!-- About Ends -->
 
     <!-- Facts & Figures Starts -->
-    <div class="container-fluid my-5 z-depth-1 px-0">
+    <div class="container-fluid my-5 z-depth-1 px-0" >
       <!--Section: Content-->
       <section class="white-text indigo p-5 ">
         <h3 class="text-center font-weight-bold mb-4 pb-2">Facts & Figures</h3>
 
         <div class="row">
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4" data-aos="flip-right">
             <div class="row">
               <div class="col-6 pr-0">
                 <h4
@@ -353,7 +368,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4" data-aos="flip-up">
             <div class="row">
               <div class="col-6 pr-0">
                 <h4
@@ -375,7 +390,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4" data-aos="flip-left">
             <div class="row">
               <div class="col-6 pr-0">
                 <h4 class="display-4 text-right">
@@ -406,7 +421,7 @@
     <!-- Facts & Figures Ends -->
 
     <!-- Sale Starts -->
-    <div class="container my-5">
+    <div class="container my-5" data-aos="zoom-in-up">
       <!--Section: Content-->
       <section class="dark-grey-text text-center">
         <!-- Section heading -->
@@ -468,7 +483,7 @@
                   
                 </div>
                 <span class="">
-                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" href="luxury.html" title="Add to Cart">
                     <button class="btn blue-gradient btn-sm btn-block">Read More</button>
                   </a>
                   </a>
@@ -534,7 +549,7 @@
 
                 </div>
                 <span class="">
-                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" href="luxury.html" title="Add to Cart">
                     <button class="btn blue-gradient btn-sm btn-block">Read More</button>
                   </a>
                   </a>
@@ -600,7 +615,7 @@
                   
                 </div>
                 <span class="">
-                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" href="luxury.html" title="Add to Cart">
                     <button class="btn blue-gradient btn-sm btn-block">Read More</button>
                   </a>
                   </a>
@@ -668,7 +683,7 @@
                   
                 </div>
                 <span class="">
-                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" href="luxury.html" title="Add to Cart">
                     <button class="btn blue-gradient btn-sm btn-block">Read More</button>
                   </a>
                 </span> 
@@ -695,7 +710,7 @@
     
         <div class="wrapper-carousel-fix ">
           <!-- Carousel Wrapper -->
-          <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
+          <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"  data-aos="fade-up"
             data-ride="carousel" data-interval="false">
             <!--Slides-->
             <div class="carousel-inner" role="listbox">
@@ -808,7 +823,7 @@
         <!-- Grid row -->
         <div class="row">
           <!-- Grid column -->
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
             <!-- Card -->
             <div class="card card-cascade narrower card-ecommerce">
               <!-- Card image -->
@@ -866,7 +881,7 @@
                   </span>
                 </div>
                 <span class="">
-                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" href="sailing.html" title="Add to Cart">
                     <button class="btn blue-gradient btn-sm btn-block">Read More</button>
                   </a>
                   </a>
@@ -879,7 +894,7 @@
           <!-- Grid column -->
     
           <!-- Grid column -->
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
             <!-- Card -->
             <div class="card card-cascade narrower card-ecommerce">
               <!-- Card image -->
@@ -937,7 +952,7 @@
                   </span>
                 </div>
                 <span class="">
-                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" href="sailing.html" title="Add to Cart">
                     <button class="btn blue-gradient btn-sm btn-block">Read More</button>
                   </a>
                   </a>
@@ -950,7 +965,7 @@
           <!-- Grid column -->
     
           <!-- Grid column -->
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
             <!-- Card -->
             <div class="card card-cascade narrower card-ecommerce">
               <!-- Card image -->
@@ -1008,7 +1023,7 @@
                   </span>
                 </div>  
                 <span class="">
-                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" href="sailing.html" title="Add to Cart">
                     <button class="btn blue-gradient btn-sm btn-block">Read More</button>
                   </a>
                   </a>
@@ -1023,7 +1038,7 @@
           <!-- Grid column -->
     
           <!-- Grid column -->
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
             <!-- Card -->
             <div class="card card-cascade narrower card-ecommerce">
               <!-- Card image -->
@@ -1081,7 +1096,7 @@
                   </span>
                 </div>
                 <span class="">
-                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+                  <a class="material-tooltip-main" data-toggle="tooltip" data-placement="top" href="sailing.html" title="Add to Cart">
                     <button class="btn blue-gradient btn-sm btn-block">Read More</button>
                   </a>
                 </span>
@@ -1214,6 +1229,38 @@
     </footer>
     <!-- Footer Ends -->
 
+
+    <!-- AOS -->
+    <script src="./js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>AOS.init();
+
+      // You can also pass an optional settings object
+      // below listed default settings
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+      });</script>
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->

@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Gallery | Marina Fleets</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <style>
+      html,
+      body,
+      header,
+      .view {
+        height: 100%;
+      }
+
+      @media (max-width: 740px) {
+        html,
+        body,
+        header,
+        .view {
+          height: 100vh;
+        }
+      }
+
+      .top-nav-collapse {
+        background-color: #3f51b5 !important;
+      }
+
+      .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+      }
+
+      @media (max-width: 991px) {
+        .navbar:not(.top-nav-collapse) {
+          background: #3f51b5 !important;
+        }
+      }
+
+      h5 {
+        letter-spacing: 3px;
+      }
+      .rating {
+        list-style-type: none;
+      }
+      .rating li {
+        float: left;
+      }
+      .rating li i {
+        display: block;
+        color: #ffa000;
+      }
+      .testimonials {
+        background: #3f51b5;
+      }
+      .img-fluid {
+        transition: 0.3s;
+      }
+      .img-fluid:hover {
+        filter: blur(0.3px);
+        zoom: 250%;
+      }
+      .wow {
+        text-shadow: 2px 2px 5px rgba(71, 67, 67, 0.2);
+      }
+    </style>
+
+    <!-- Main navigation -->
+    <header>
+      <!--Navbar-->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./Images/logo.png" width="120px" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent-7"
+            aria-controls="navbarSupportedContent-7"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="gallery.html">Gallery </a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Categories</a
+                >
+                <div
+                  class="dropdown-menu dropdown-primary"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="luxury.html">Luxury</a>
+                  <a class="dropdown-item" href="sailing.html">Sailing</a>
+                  <a class="dropdown-item" href="fishing.html">Fishing</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="queries.html">Queries Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sitemap.html">Site Map</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+      <!-- Full Page Intro -->
+      <div
+        class="view jarallax"
+        data-jarallax='{"speed": 0.2}'
+        style="background-image: linear-gradient(to bottom, rgb(67, 137, 162, 0.3), rgb(92, 37, 141, 0.3)), url('./images/header background/wall.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"
+      >
+        <!-- Mask & flexbox options-->
+        <div class="mask  d-flex justify-content-center align-items-center">
+          <!-- Content -->
+          <div class="container">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-12 white-text text-center">
+                <h1
+                  class="display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold wow fadeInDown "
+                  data-wow-delay="0.3s"
+                >
+                  Gallery
+                </h1>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Content -->
+        </div>
+        <!-- Mask & flexbox options-->
+      </div>
+      <!-- Full Page Intro -->
+    </header>
+
+    <!-- Gallery Starts -->
+    <div class="container">
+      <center class="mt-5">
+        <img src="./Images/gif1.gif" class="img-fluid" alt="" />
+      </center>
+      <h2 class="font-weight-bold my-5 text-center" id="luxury">
+        Luxury Yachsts
+      </h2>
+      <hr width="100" color="#3F51B5" />
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal1"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g1_DeepStory.jpg"
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>DEEP STORY</h4>
+                    <br />
+                    <p>
+                      Orkun Yachting <br />Price | €12,000,000 <br />Beam |
+                      45.1m <br />Year | 2012
+                    </p>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g1_DeepStory.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal1"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal2"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g2_aquamarina.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>AQUAMARINA <br /></h4>
+                    ISA <br />Price | €12,900,000 <br />Beam | 47.5m <br />Year
+                    | 2007
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g2_aquamarina.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal2"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal3"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g3_PRESIDENT 140.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>PRESIDENT -140</h4>
+                    <br />President <br />Year | $ 9,950,000 <br />
+                    Beam | 42.72m
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g3_PRESIDENT 140.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal3"
+          /></a>
+        </div>
+      </div>
+      <!--first Row end here											-->
+
+      <!--2nd row start from here-->
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal4"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      src="Images/g4_TREMENDA YACHT.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>TREMENDA YACHT</h4>
+                    <br />ISA <br />Price | €12,900,000 <br />Beam | 47.5m
+                    <br />Year | 2007
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src=" Images/g4_TREMENDA YACHT.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal4"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal5"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g5_SKYFALL YACHT.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>SKY FALL YACTH</h4>
+                    <br />President <br />Year | $ 9,950,000 <br />
+                    Beam | 42.72m
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g5_SKYFALL YACHT.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal5"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            tabindex="-1"
+            id="modal6"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g6_REVE D'OR YACHT.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>REVE D'OR YACHT</h4>
+                    <br />President <br />Year | $ 9,950,000 <br />
+                    Beam | 42.72m
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g6_REVE D'OR YACHT.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal6"
+          /></a>
+        </div>
+      </div>
+
+      <!--2nd row end here-->
+
+      <!--3rd row start from here-->
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal7"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g7_LA DEA II YACHT.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>LA DEA II YACHT</h4>
+                    <br />ISA <br />Price | €12,900,000 <br />Beam | 47.5m
+                    <br />Year | 2007
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g7_LA DEA II YACHT.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal7"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal9"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g8_GLAZE YACHT.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>GLAZE YACTH</h4>
+                    <br />ISA <br />Price | €12,900,000 <br />Beam | 47.5m
+                    <br />Year | 2007
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g8_GLAZE YACHT.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal9"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal10"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g9_AWOL YACHT.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>AWOL YACHT</h4>
+                    <br />ISA <br />Price | €12,900,000 <br />Beam | 47.5m
+                    <br />Year | 2007
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g9_AWOL YACHT.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal10"
+          /></a>
+        </div>
+      </div>
+      <!--3rd row end here-->
+
+      <!--Motor Boats Start From here -->
+      <h2 class="font-weight-bold my-5 text-center">Sailing Boats</h2>
+      <hr width="100" color="#3F51B5" />
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal11"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g11_Fleurtje.jpg"
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>FLEURTJE</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g11_Fleurtje.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal11"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal12"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g12_ Atmosphere.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>ATOMSHERE</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g12_ Atmosphere.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal12"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal13"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g13_Jasali II.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>JASALI II</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g13_Jasali II.jpg"
+              data-toggle="modal"
+              data-target="#modal13"
+          /></a>
+        </div>
+      </div>
+      <!--first Row end here											-->
+
+      <!--2nd row start from here-->
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal14"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g14_Drumbeat.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>DRUM BEAT</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g14_Drumbeat.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal14"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal15"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g15_Nirvana.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>NIRVANA</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g15_Nirvana.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal15"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal16"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g16_Pink Gin VI.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>PINK GIN VI</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g16_Pink Gin VI.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal16"
+          /></a>
+        </div>
+      </div>
+
+      <!--2nd row end here-->
+
+      <!--3rd row start from here-->
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal17"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g17_Parsifal III.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>PARASIFAL III</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g17_Parsifal III.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal17"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal18"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g18_Tiara.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>TIARA</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g18_Tiara.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal18"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal19"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g19_Marie.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>MARIE</h4>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g19_Marie.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal19"
+          /></a>
+        </div>
+      </div>
+      <!--3rd row end here-->
+
+      <h2 class="font-weight-bold my-5 text-center">Fishing Boats</h2>
+      <hr width="100" color="#3F51B5" />
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal21"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g1_DeepStory.jpg"
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>SeaHunter Tournament 35</h4>
+                    <br />
+                    <p>
+                      salt water fishing <br />Price | €12,000,000 <br />Beam |
+                      45.1m <br />Year | 2012
+                    </p>
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g21_SeaHunter Tournament 35.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal21"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal22"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g22_Midnight Express 39S Open.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>Midnight Express 39S Open <br /></h4>
+                    Express <br />Price | €12,900,000 <br />Beam | 47.5m
+                    <br />Year | 2007
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g22_Midnight Express 39S Open.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal22"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal23"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g3_PRESIDENT 140.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>Poca 500</h4>
+                    <br />Poca<br />Year | $ 9,950,000 <br />
+                    Beam | 42.72m
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g23_Poca 500.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal23"
+          /></a>
+        </div>
+      </div>
+      <!--first Row end here											-->
+
+      <!--2nd row start from here-->
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal24"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      src="Images/g24_Midnight Express 37 Open.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>Midnight Express 37 Open</h4>
+                    <br />Express <br />Price | €12,000 <br />
+                    | 45 m <br />Year | 2007
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g24_Midnight Express 37 Open.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal24"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal25"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g25_Contender 39 ST.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>Contender 39 ST</h4>
+                    <br />
+                    <br />Year 2013 | $ 9,950,000 <br />
+                    Beam | 42.72m
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g25_Contender 39 ST.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal25"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            tabindex="-1"
+            id="modal26"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g26_Mako 414 CC.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>Mako 414 CC</h4>
+                    <br />mako <br />Year 2016 | $ 9,000 <br />
+                    Beam | 42ft in
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g26_Mako 414 CC.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal26"
+          /></a>
+        </div>
+      </div>
+
+      <!--2nd row end here-->
+
+      <!--3rd row start from here-->
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div
+            class="modal fade"
+            id="modal27"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g27_Nor-Tech 340.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>Nor-Tech 340</h4>
+                    <br />ISA <br />Price | €12,900,000 <br />Beam | 47.5m
+                    <br />Year | 2007
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g27_Nor-Tech 340.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal27"
+          /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal29"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g28_Silverton 31 Sedan (powerboat).jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>Silverton 31 Sedan (powerboat)</h4>
+                    <br />Sliverton <br />Price | €900,000 <br />| 24 ft in
+                    <br />Year | 2019
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g28_Silverton 31 Sedan (powerboat).jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal29"
+          /></a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div
+            class="modal fade"
+            id="modal30"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="embed-responsive-item"
+                      src="Images/g29_Gulfstream Yachts Tournament Edition.jpg"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <span class="mr-4">
+                    <h4>Gulfstream</h4>
+                    <br />Salt Fishing<br />Price | €12,900,000 <br />Beam | 31
+                    ft <br />Year | 2019
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            ><img
+              class="img-fluid z-depth-1 zoom img-thumbnail p-0"
+              src="Images/g29_Gulfstream Yachts Tournament Edition.jpg"
+              alt="video"
+              data-toggle="modal"
+              data-target="#modal30"
+          /></a>
+        </div>
+      </div>
+      <!--3rd row end here-->
+    </div>
+
+    <!-- Modal 1 -->
+    <div
+      class="modal fade"
+      id="faq"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="faq1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="faq1">FAQ's</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 1 end -->
+
+    <!-- Modal 2 -->
+    <div
+      class="modal fade"
+      id="privacy"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="privacy1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center font-weight-bold" id="privacy1">
+              Privacy Policy
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body font-weight-normal">
+            <h6>LAST UPDATED: 17/02/2019</h6>
+            <p class="font-weight-normal">
+              Marina Fleets your right to privacy. This Privacy Notice explains
+              who we are, how we collect, share and use personal information
+              about you, and how you can exercise your privacy rights. If you
+              have any questions or concerns about our use of your personal
+              information, then please contact us using the contact details
+              provided at the bottom of this Privacy Notice.
+            </p>
+            <h6>Quick links</h6>
+            <p>
+              We recommend that you read this Privacy Notice in full to ensure
+              you are fully informed. However, if you only want to access a
+              particular section of this Privacy Notice, then you can click on
+              the relevant link in the blue navigation bar to jump to that
+              section.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2 end -->
+
+    <!-- Modal 3 -->
+    <div
+      class="modal fade"
+      id="terms"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="terms1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="terms1">
+              Terms And Condition
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body font-weight-normal">
+            Welcome to marinafleets.com . If you continue to browse and use this
+            website, you are agreeing to comply with and be bound by the
+            following terms and conditions of use, which together with our
+            privacy policy govern marina fleets’s relationship with you in
+            relation to this website. If you disagree with any part of these
+            terms and conditions, please do not use our website. The term
+            ‘marinafleets’ or ‘us’ or ‘we’ refers to the owner of the website.
+            The term ‘company’ refers to MTG Group Pty Ltd. The term ‘you’
+            refers to the user or viewer of our website. The use of this website
+            is subject to the following terms of use: The content of the pages
+            of this website i for your general information and use only. It is
+            subject to change without notice. This website uses cookies to
+            monitor browsing preferences. Neither we nor any third parties
+            provide any warranty or guarantee as to the accuracy, timeliness,
+            performance, completeness or suitability of the information and
+            materials found or offered on this website for any particular
+            purpose. You acknowledge that such information and materials may
+            contain inaccuracies or errors and we expressly exclude liabilityfor
+            any such inaccuracies or errors to the fullest extent permitted by
+            law. Ysour use of any information or materials on this website is
+            entirely at your own risk, for which we shall not be liable. It
+            shall be your own responsibility to ensure that any products,
+            services or information available through this website meet your
+            specific requirements. This website contains material which is owned
+            by or licensed to us. This material includes, but is not limited to,
+            the design, layout, look, appearance and graphics. Reproduction is
+            prohibited other than in accordance with the copyright notice, which
+            forms part of these terms and conditions. From time to time, this
+            website may also include links to other websites. These links are
+            provided for your convenience to provide further information. They
+            do not signify that we endorse the website(s). We have no
+            responsibility for the content of the linked website(s). Your use of
+            this website and any dispute arising out of such use of the website
+            is subject to the laws of Australia.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3 end -->
+
+    <!-- Modal 4 -->
+    <div
+      class="modal fade"
+      id="careers"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="Careers"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center font-weight-bold" id="Careers">
+              Careers
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body font-weight-normal">
+            <h6 class="text-center">Join the Marina Fleets Team</h6>
+            <p class="font-weight-normal">
+              Join the marina fleets Team Today to Connect with the Best in the
+              Marine Industry! marina fleets recognise that even the best can
+              get better and to continue our growth, we need enthusiastic,
+              talented, and highly-motivated Team Members. If you are looking
+              for a career with an exciting, innovative, world-class company,
+              send your CV to info@approvedboats.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 4 end -->
+    <!-- Gallery Ends -->
+
+    <!-- Footer Starts -->
+    <footer
+      class="page-footer font-small  pt-4"
+      style="background-color: #3F51B5; color: white"
+    >
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left mt-3 pb-3">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold" data-aos="zoom-in">
+              Marina Fleets
+            </h6>
+            <p style="font-size: 16px" data-aos="zoom-in">
+              Marina Fleets gives you more ways to enjoy your boat and yachts to
+              the fullest. With classes, events, Getaways!® to amazing places
+              and more, you’re part of an entire family who is united by water.
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div
+            class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"
+            data-aos="zoom-in"
+          >
+            <h6 class="text-uppercase mb-4 font-weight-bold">Our Pages</h6>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="index.html">Home</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="Gallery.html">Gallery</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="Luxury.html">Luxury Yachts </a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="sailing.html">Sailing Boats</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="fishing.html">Fishing Boats </a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="queries link.html">Quieres Link</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="About US.html">About Us</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="site map.html">Site Map</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="contact us.html">Contact Us</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div
+            class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"
+            data-aos="zoom-in"
+          >
+            <h6 class="text-uppercase mb-4 font-weight-bold">Need Help?</h6>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="#" data-toggle="modal" data-target="#faq">Faq</a>
+            </p>
+
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="#" data-toggle="modal" data-target="#careers">Careers</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="#" data-toggle="modal" data-target="#privacy"
+                >Privacy Policy</a
+              >
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="#" data-toggle="modal" data-target="#terms"
+                >Terms And Condition</a
+              >
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="index.html" download>Downlad as HTML </a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="download/index.txt" download>Downlad Whole Code </a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+          <div
+            class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"
+            data-aos="zoom-in"
+          >
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p>
+              <i class="fas fa-home mr-3">Address </i>
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> info_marina_fleets@gmail.com
+            </p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="text-center text-md-left">
+              © 2018 Copyright:
+              <a href="#"><strong> Marina-Fleets.coms</strong></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

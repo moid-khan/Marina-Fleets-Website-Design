@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>About Us | Marina Fleets</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      html,
+      body,
+      header,
+      .view {
+        height: 100%;
+      }
+
+      @media (max-width: 740px) {
+        html,
+        body,
+        header,
+        .view {
+          height: 100vh;
+        }
+      }
+
+      .top-nav-collapse {
+        background-color: #3f51b5 !important;
+      }
+
+      .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+      }
+
+      @media (max-width: 991px) {
+        .navbar:not(.top-nav-collapse) {
+          background: #3f51b5 !important;
+        }
+      }
+
+      h5 {
+        letter-spacing: 3px;
+      }
+
+      .rating {
+        list-style-type: none;
+      }
+
+      .rating li {
+        float: left;
+      }
+
+      .rating li i {
+        display: block;
+        color: #ffa000;
+      }
+
+      .testimonials {
+        background: #3f51b5;
+      }
+      .wow {
+        text-shadow: 2px 2px 5px rgba(71, 67, 67, 0.2);
+      }
+      .timeline {
+        position: relative;
+        list-style: none;
+        padding: 1rem 0;
+        margin: 0;
+      }
+
+      .timeline::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        margin-left: -1px;
+        background-color: #50a1ff;
+      }
+
+      .timeline-element {
+        position: relative;
+        width: 50%;
+        padding: 1rem 0;
+        padding-right: 2.5rem;
+        text-align: right;
+      }
+
+      .timeline-element::before {
+        content: "";
+        position: absolute;
+        right: -8px;
+        top: 1.35rem;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 2px solid #50a1ff;
+        background-color: #fff;
+      }
+
+      .timeline-element:nth-child(even)::before {
+        right: auto;
+        left: -8px;
+      }
+
+      .timeline-element:nth-child(even) {
+        margin-left: 50%;
+        padding-left: 2.5rem;
+        padding-right: 0;
+        text-align: left;
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline::before {
+          left: 8px;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element {
+          width: 100%;
+          text-align: left;
+          padding-left: 2.5rem;
+          padding-right: 0;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element::before {
+          top: 1.25rem;
+          left: 1px;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element:nth-child(even) {
+          margin-left: 0rem;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element {
+          width: 100%;
+          text-align: left;
+          padding-left: 2.5rem;
+          padding-right: 0;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element:nth-child(even)::before {
+          left: 1px;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element::before {
+          top: 1.25rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main navigation -->
+    <header>
+      <!--Navbar-->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./Images/logo.png" width="120px" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent-7"
+            aria-controls="navbarSupportedContent-7"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery </a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Categories</a
+                >
+                <div
+                  class="dropdown-menu dropdown-primary"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="luxury.html">Luxury</a>
+                  <a class="dropdown-item" href="sailing.html">Sailing</a>
+                  <a class="dropdown-item" href="fishing.html">Fishing</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="queries.html">Queries Link</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sitemap.html">Site Map</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+      <!-- Full Page Intro -->
+      <div
+        class="view jarallax"
+        data-jarallax='{"speed": 0.2}'
+        style="background-image: linear-gradient(to bottom, rgb(67, 137, 162, 0.3), rgb(92, 37, 141, 0.3)), url('./images/header background/about.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"
+      >
+        <!-- Mask & flexbox options-->
+        <div class="mask  d-flex justify-content-center align-items-center">
+          <!-- Content -->
+          <div class="container">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-12 white-text text-center">
+                <h1
+                  class="display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold wow fadeInDown "
+                  data-wow-delay="0.3s"
+                >
+                  About Us
+                </h1>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Content -->
+        </div>
+        <!-- Mask & flexbox options-->
+      </div>
+      <!-- Full Page Intro -->
+    </header>
+    <!-- Main navigation -->
+
+    <!-- Ad Starts -->
+    <center class="mt-5 mb-5">
+      <img src="Images/gif1.gif" class="img-fluid" alt="" />
+    </center>
+    <!-- Ad Ends -->
+
+    <!-- About Starts -->
+    <div class="container z-depth-1 my-5 py-5 px-4 px-lg-0">
+      <!-- Section -->
+      <section class="p-5">
+        <h3 class="font-weight-bold text-center dark-grey-text pb-2">
+          About Marina Fleets
+        </h3>
+        <hr class="w-header my-4" />
+        <p class="lead text-center text-muted pt-2 mb-5">
+          As a world-leader in yacht boats chartering, brokerage, our
+          experience, track record and portfolio are unchallenged. This position
+          and our long heritage are a great source of pride, but we’re prouder
+          still of our people. Every member of our expert team is committed to
+          providing you with the highest quality service that is absolutely
+          transparent and reliable. In the world of yachting, you could have no
+          better qualified or trustworthy partner than Marina Fleets.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <ol class="timeline">
+              <li class="timeline-element shadow-lg">
+                <p class="text-muted">
+                  Marina Fleets is the global authority in superyachting,
+                  celebrating the yachts and the life that comes with them
+                  through our unique environment and our unrivalled access.
+                </p>
+              </li>
+
+              <li class="timeline-element shadow-lg">
+                <p class="text-muted">
+                  We publish the world’s best yacht Boats luxury books, organise
+                  high quality events, and provide digital media services and
+                  data to owners and professionals in the boats Yachts industry.
+                </p>
+              </li>
+
+              <li class="timeline-element shadow-lg p-5">
+                <p class="text-muted">
+                  Our products are targeted to deliver buyers, sellers and
+                  operators of superyachts to builders, brokers and service
+                  companies that operate within the global superyacht Boats
+                  market across all media types.
+                </p>
+              </li>
+
+              <li class="timeline-element shadow-lg p-5">
+                <p class="text-muted">
+                  We provide tailored mixed media solutions to our customers
+                  that are innovative, high quality, high impact and that
+                  deliver effective results.
+                </p>
+              </li>
+
+              <li class="timeline-element shadow-lg p-5">
+                <p class="text-muted">
+                  All our products are produced to the highest possible
+                  standards; we employ the world’s best specialist journalists
+                  and photographers working across print, online and digital
+                  video. We organise the most prestigious events in the
+                  superyacht calendar at the most exclusive locations.
+                </p>
+              </li>
+
+              <li class="timeline-element shadow-lg p-5">
+                <p class="text-muted">
+                  Marina Fleets Media produces over 1.2 million magazines each
+                  year that sell in 60 countries worldwide and are published in
+                  three different languages. We organise 10 annual events in
+                  London, Monaco, Ft Lauderdale, Palm Beach, Porto Cervo and The
+                  British Virgin Isles. In addition, we own the world’s most
+                  comprehensive database of superyachts boats and our social and
+                  business networking tool for superyacht captains and crew
+                </p>
+              </li>
+
+              <li class="timeline-element shadow-lg p-5">
+                <p class="text-muted">
+                  All our products are produced to the highest possible
+                  standards. We employ the world’s best specialist journalists
+                  and photographers working across print, online and digital
+                  video. We organise the most prestigious events in the
+                  superyacht and boats calendar at the most exclusive locations.
+                </p>
+              </li>
+
+              <li class="timeline-element shadow-lg p-5">
+                <p class="text-muted">
+                  We operate in an industry devoted to delivering the highest
+                  levels of luxury. We facilitate rare and extraordinary
+                  experiences, and we manage a broad portfolio of immensely
+                  valuable yachts, boats . To achieve consistent excellence at
+                  this echelon takes a special kind of company with exceptional
+                  people. Marina Fleets dedicated 150-strong team are chosen for
+                  their enthusiasm, empowered by deep knowledge and inspired to
+                  think innovatively. Supported by a range of effective IT
+                  solutions, they bring unquestionable trust to the experience
+                  of owning, chartering, selling, crewing and building a yacht
+                  bpats.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- Section -->
+    </div>
+    <!-- About Ends -->
+
+    <!-- Footer Starts -->
+    <footer
+      class="page-footer font-small  pt-4"
+      style="background-color: #3F51B5; color: white"
+    >
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left mt-3 pb-3">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold" data-aos="zoom-in">
+              Marina Fleets
+            </h6>
+            <p style="font-size: 16px" data-aos="zoom-in">
+              Marina Fleets gives you more ways to enjoy your boat and yachts to
+              the fullest. With classes, events, Getaways!® to amazing places
+              and more, you’re part of an entire family who is united by water.
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div
+            class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"
+            data-aos="zoom-in"
+          >
+            <h6 class="text-uppercase mb-4 font-weight-bold">Our Pages</h6>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="index.html">Home</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="Gallery.html">Gallery</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="Luxury.html">Luxury Yachts </a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="sailing.html">Sailing Boats</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="fishing.html">Fishing Boats </a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="queries link.html">Quieres Link</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="About US.html">About Us</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="site map.html">Site Map</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="contact us.html">Contact Us</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div
+            class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"
+            data-aos="zoom-in"
+          >
+            <h6 class="text-uppercase mb-4 font-weight-bold">Need Help?</h6>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="#" data-toggle="modal" data-target="#faq">Faq</a>
+            </p>
+
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="#" data-toggle="modal" data-target="#careers">Careers</a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="#" data-toggle="modal" data-target="#privacy"
+                >Privacy Policy</a
+              >
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="#" data-toggle="modal" data-target="#terms"
+                >Terms And Condition</a
+              >
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="index.html" download>Downlad as HTML </a>
+            </p>
+            <p class="font-weight-normal" style="font-size: 16px">
+              <a href="download/index.txt" download>Downlad Whole Code </a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+          <div
+            class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"
+            data-aos="zoom-in"
+          >
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p>
+              <i class="fas fa-home mr-3">Address </i>
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> info_marina_fleets@gmail.com
+            </p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="text-center text-md-left">
+              © 2018 Copyright:
+              <a href="#"><strong> Marina-Fleets.coms</strong></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
